@@ -1,0 +1,49 @@
+
+.experience_heading{
+    padding-top: 40px;
+    font-weight: bold;
+    color: #0D2461;
+}
+.experience_para{
+    color: #0D2461;
+}
+
+div.form::before { 
+    content: " ";
+    display: block;
+    width: auto;
+    background-color: rgb(58, 187, 105);
+    border-top: 4px solid rgb(58, 187, 105);
+    margin-top: 40px;
+  }
+.form{
+    background-color: white;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    width: auto;
+   
+}
+.content{
+ padding-top: 20px;
+ padding-left: 70px;
+}
+ul {
+    list-style: none;
+   
+  }
+  li{
+    color:#0D2461 ;
+    font-weight: bold;
+  }
+  p{
+    color:#0D2461 ;
+  }
+  ul li::before {
+    content: "\2022";
+    color: rgb(58, 187, 105);
+    font-weight: bold;
+    display: inline-block; 
+    font-size: 40px;
+    width: 1em;
+    margin-left: -1em;
+  }

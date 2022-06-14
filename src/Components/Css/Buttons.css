@@ -1,0 +1,45 @@
+
+  .button_groups{
+margin-top: 150px;
+  }
+  .side_info{
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .button1 {
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 26px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+    .h1::after {
+      content: "";
+      display: block;
+      height: 40px;
+      border-left: 4px solid rgb(8, 21, 56);
+      margin-left: 20px;
+    }
+  
+  }
+  @media only screen and (max-width: 768px) {
+    p::after {
+      content: "";
+    
+    }
+    .button1 {
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 26px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+  }
